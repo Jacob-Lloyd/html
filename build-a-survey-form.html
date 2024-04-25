@@ -1,0 +1,101 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarkov Satisfaction Form</title>
+    <link rel="stylesheet" href="survey-doc.css" /> 
+    </head>
+<body>
+<h1 id="title">
+        Tarkov Satisfaction Form
+</h1>
+      <p id="description">Welcome to my tarkov satisfaction form, god help you all</p>
+
+<form id="survey-form">
+  <div class="form-group">
+     <label for="name" id="name-label">Name:</label>
+    <input 
+         type="text" 
+         name="name" 
+         id="name" 
+         placeholder="Enter your name" 
+         required>
+
+   <label for="age" id="number-label">Age:</label> 
+  <input type="number" name="age" id="number" min="15" max="99" placeholder="Enter your age" required> 
+
+        <label for="email" id="email-label">Email:</label>
+  <input type="email" name="email" id="email" placeholder="Enter your email" required>  
+
+  <div class="form-group">
+  <p>what best describes your relationship with tarkov?</p>
+  
+  <select id="dropdown" name="dropdown">
+    <option value="Abusive">Abusive</option>
+    
+    <option value="I rat (you're a loser)">I rat (you're a loser)</option>
+    
+    <option value="Head, Eyes">Head, Eyes</option>
+    
+    <option value="I only play to LARP">I only play to LARP</option>
+    
+    <option value="I play this as a break from DS3">I play this as a break from DS3</option>
+    
+    <option value="I pretend I'm in ukraine when I scav">I pretend I'm in ukraine when I scav</option>
+    
+    <option value="All of the Above">All of the Above</option>
+  </select> 
+<p>What type of player are you?</p>
+ <label>
+   <input
+      type="radio"
+      name="player"
+      id="rat"
+      value="rat"
+      checked
+      /> rat</label>
+
+      <label>
+   <input
+      type="radio"
+      name="player"
+      id="chad"
+      value="chad"
+      /> chad</label>
+
+      <label>
+   <input
+      type="radio"
+      name="player"
+      id="scav main"
+      value="scav main"
+      /> scav main</label>
+
+      <p>What faction do you play as?</p>
+    <label>
+      <input 
+         type="checkbox" 
+         name="USEC" 
+         id="USEC" 
+         value="USEC"
+      /> USEC</label>
+ 
+  <label>
+  <input 
+         type="checkbox" 
+         name="BEAR" 
+         id="BEAR" 
+         value="BEAR"
+  /> BEAR</label>
+  
+<p class="textarea-desc">Game suggestions or cry box: (no one will read this) </p>
+  <textarea name="Womp Womp" id="Womp Womp" placeholder="Womp Womp"></textarea>
+
+  <input type="submit" value="Submit" id="submit">
+
+  </div> 
+</form>
+</body>
+</html>
